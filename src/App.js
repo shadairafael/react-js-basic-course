@@ -6,7 +6,8 @@ class App extends Component {
   render(){
     return(
       <div>
-        <Image id={1} src=""/>
+        <Image id={1}
+        src="https://www.ecured.cu/images/thumb/a/a6/React-logo.png/260px-React-logo.png"/>
         <Input id={2} type="text"/>
       </div>
     );
