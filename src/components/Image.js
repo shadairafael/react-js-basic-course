@@ -5,7 +5,7 @@ class Image extends Component {
   render(){
     return(
       <div>
-        <p>{"id: "+ this.props.id}</p>
+        <p>{"printing the id: "+ this.props.id}</p>
         <img src={this.props.src}/>
       </div>
     );
